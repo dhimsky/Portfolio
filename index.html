@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhimas Afrisetiawan — Portfolio</title>
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- BG Orbs -->
+<div class="orb-container">
+  <div class="orb orb1 parallax-layer" data-speed="0.03"></div>
+  <div class="orb orb2 parallax-layer" data-speed="0.05"></div>
+  <div class="orb orb3 parallax-layer" data-speed="0.02"></div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo"></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <div class="toggle-knob"></div>
+    </button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="about">
+  <div class="hero-inner">
+    <div class="hero-content reveal">
+      <div class="hero-badge">Available for work</div>
+      <h1 class="hero-title">Hi, I'm <span class="accent">Dhimas</span><br/>Afrisetiawan</h1>
+      <p class="hero-subtitle">Frontend Developer & UI/UX Designer</p>
+      <p class="hero-desc">
+        Informatics Engineering graduate with expertise in building responsive web apps, mobile interfaces, and intuitive user experiences. Passionate about Web3, clean code, and pixel-perfect design.
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="https://drive.google.com/file/d/1WLjlyY7d3EPqv3oMeVEJrjJtIIXbGD7c/view?usp=sharing" class="btn-outline">View Resume</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal" style="transition-delay:0.2s;">
+      <div class="hero-card">
+        <div class="ring-decor"></div>
+        <div class="ring-decor2"></div>
+        <img src="assets/photo.jpeg" alt="Dhimas Afrisetiawan" class="avatar-circle" style="object-fit:cover;"/>
+        <div class="hero-card-name">Dhimas Afrisetiawan</div>
+        <div class="hero-card-role">Frontend Dev · UI/UX · Fullstack</div>
+        <div class="hero-stats">
+          <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Companies</div></div>
+          <div class="stat"><div class="stat-num">10+</div><div class="stat-label">Projects</div></div>
+          <div class="stat"><div class="stat-num">3.66</div><div class="stat-label">GPA</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-inner">
+    <p class="section-label reveal">What I do</p>
+    <h2 class="section-title reveal">Skills & Technologies</h2>
+    <p class="section-desc reveal">A versatile toolkit spanning frontend, backend, mobile development, and design — built through real-world experience.</p>
+    <div class="skills-grid">
+      <div class="glass skill-item reveal">
+        <img src="assets/skills/laravel.png" alt="Laravel" class="skill-icon img-center"/>
+        <span class="skill-name">Fullstack</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.05s;">
+        <img src="assets/skills/react.png" alt="React.js" class="skill-icon img-center"/>
+        <span class="skill-name">React.js</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.1s;">
+        <img src="assets/skills/wp.png" alt="WordPress" class="skill-icon img-center"/>
+        <span class="skill-name">WordPress</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.15s;">
+        <img src="assets/skills/figma.png" alt="Figma" class="skill-icon img-center"/>
+        <span class="skill-name">UI/UX Design</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.2s;">
+        <img src="assets/skills/php.png" alt="PHP" class="skill-icon img-center"/>
+        <span class="skill-name">PHP/Laravel</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.25s;">
+        <img src="assets/skills/css.png" alt="CSS" class="skill-icon img-center"/>
+        <span class="skill-name">HTML/CSS/JS</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.3s;">
+        <img src="assets/skills/flutter.png" alt="Flutter" class="skill-icon img-center"/>
+        <span class="skill-name">Flutter</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.35s;">
+        <img src="assets/skills/capcut.png" alt="Capcut" class="skill-icon img-center"/>
+        <span class="skill-name">Content</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.4s;">
+        <img src="assets/skills/cplus.png" alt="C++" class="skill-icon img-center"/>
+        <span class="skill-name">C++</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.45s;">
+        <img src="assets/skills/chain.png" alt="Blockchain" class="skill-icon img-center"/>
+        <span class="skill-name">Web3</span>
+      </div>
+      <div class="glass skill-item reveal" style="transition-delay:0.5s;">
+        <img src="assets/skills/ms.png" alt="Ms. Office" class="skill-icon img-center"/>
+        <span class="skill-name">Ms. Office</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <p class="section-label reveal">Where I've worked</p>
+    <h2 class="section-title reveal">Work Experience</h2>
+    <p class="section-desc reveal">From startups to corporate internships — building real products, solving real problems.</p>
+    <div class="exp-grid">
+      <div class="glass exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-title">Frontend Developer & UI/UX Designer</div>
+            <div class="exp-company">PT Berkah Manut Gusti · Yogyakarta (Onsite)</div>
+          </div>
+          <span class="exp-period">May 2025 – Jun 2026</span>
+        </div>
+        <ul class="exp-list">
+          <li>Built responsive company and product websites from scratch.</li>
+          <li>Developed a blockchain-based loyalty program dashboard.</li>
+          <li>Integrated Web3 APIs into modern user interfaces.</li>
+          <li>Designed mobile UI for a blockchain loyalty program.</li>
+        </ul>
+      </div>
+      <div class="glass exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-title">Web Developer & Content Web Marketplace</div>
+            <div class="exp-company">PT Apik Digital Nusantara · Cilacap (Onsite)</div>
+          </div>
+          <span class="exp-period">Oct 2024 – Apr 2025</span>
+        </div>
+        <ul class="exp-list">
+          <li>Created responsive landing pages and full-featured websites.</li>
+          <li>Designed logos, banners, and visual assets for client branding.</li>
+          <li>Optimized website performance for faster load times and SEO.</li>
+          <li>Produced ad video content for Meta and TikTok marketplaces.</li>
+        </ul>
+      </div>
+      <div class="glass exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-title">Fullstack Developer</div>
+            <div class="exp-company">PT Qwords Company International · Jakarta (Remote)</div>
+          </div>
+          <span class="exp-period">Nov 2023 – Dec 2023</span>
+        </div>
+        <ul class="exp-list">
+          <li>Built and maintained full-stack web applications.</li>
+          <li>Engineered responsive static websites with cross-browser compatibility.</li>
+        </ul>
+      </div>
+      <div class="glass exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-title">Software Quality Assurance</div>
+            <div class="exp-company">PT Komerce · Purbalingga (Onsite)</div>
+          </div>
+          <span class="exp-period">Oct 2023 – Dec 2023</span>
+        </div>
+        <ul class="exp-list">
+          <li>Authored comprehensive website documentation.</li>
+          <li>Collaborated with product and design teams for consistency.</li>
+          <li>Conducted market research to optimize content strategies.</li>
+        </ul>
+      </div>
+      <div class="glass exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-title">Mobile Developer</div>
+            <div class="exp-company">PT Komerce · Purbalingga (Onsite)</div>
+          </div>
+          <span class="exp-period">Aug 2023 – Oct 2023</span>
+        </div>
+        <ul class="exp-list">
+          <li>Designed, developed, and maintained mobile applications.</li>
+          <li>Collaborated on new features with cross-functional teams.</li>
+          <li>Conducted thorough testing and debugging for performance.</li>
+        </ul>
+      </div>
+      <div class="glass exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-title">Freelance Developer & Designer</div>
+            <div class="exp-company">Self-employed · Remote</div>
+          </div>
+          <span class="exp-period">Aug 2021 – Present</span>
+        </div>
+        <ul class="exp-list">
+          <li>Developed responsive websites and web-based systems.</li>
+          <li>Designed intuitive UI/UX to improve conversion rates.</li>
+          <li>Edited promotional videos and digital assets for clients.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-inner">
+    <p class="section-label reveal">What I've built</p>
+    <h2 class="section-title reveal">Featured Projects</h2>
+    <p class="section-desc reveal">Real-world applications delivered for real clients — covering Web3, e-commerce, travel, and corporate platforms.</p>
+    <div class="projects-grid">
+
+      <div class="glass proj-card reveal">
+        <img src="assets/projects/fbl.png" alt="Fibonacci Labs" class="projects-img"/>
+        <div class="proj-title">Fibonacci Labs</div>
+        <div class="proj-desc">A blockchain incubation platform dedicated to nurturing innovative startups, accelerating Web3 projects, and empowering founders with technology, strategy, and ecosystem support.
+        </div>
+        <div class="proj-tags">
+          <span class="tag">React.js</span>
+          <span class="tag">3D Animation</span>
+          <span class="tag">Parallax</span>
+        </div>
+        <a href="https://fibonaccilabs.id/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal">
+        <img src="assets/projects/ftn.png" alt="FTN Token" class="projects-img"/>
+        <div class="proj-title">FTN Token</div>
+        <div class="proj-desc">A professional token profile website showcasing the FTN ecosystem, token utility,omics, roadmap, and blockchain-powered vision for investors and the communitys.</div>
+        <div class="proj-tags"><span class="tag">React.js</span><span class="tag">Blockchain</span><span class="tag">Token</span></div>
+        <a href="https://flagshiiip.io/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal">
+        <img src="assets/projects/ftn.png" alt="FTN Apps" class="projects-img"/>
+        <div class="proj-title">FTN Apps</div>
+        <div class="proj-desc">A modern mobile application designed for the FTN ecosystem, enabling users to manage digital assets, explore token utilities, and seamlessly interact with blockchain-powered services through an intuitive interface.</div>
+        <div class="proj-tags"><span class="tag">Figma</span><span class="tag">UI/IX</span><span class="tag">Mobile App</span></div>
+        <a href="https://play.google.com/store/apps/details?id=com.flagshiiip&pcampaignid=web_share" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal">
+        <img src="assets/projects/flagshiiip.png" alt="Flagshiiip Company Profile" class="projects-img"/>
+        <div class="proj-title">Flagshiiip Company Profile</div>
+        <div class="proj-desc">
+          A modern company profile website showcasing Flagshiiip’s blockchain innovation, digital asset solutions, services, vision, and technology-driven ecosystem.
+        </div>
+        <div class="proj-tags">
+          <span class="tag">React.js</span>
+          <span class="tag">Company Profile</span>
+          <span class="tag">Blockchain</span>
+        </div>
+        <a href="https://flagshiiip.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal">
+        <img src="assets/projects/tc.png" alt="Tersimpan Cerita" class="projects-img"/>
+        <div class="proj-title">Tersimpan Cerita</div>
+        <div class="proj-desc">An end-to-end photography booking platform that streamlines the entire process, from graduation photo reservations and scheduling to payment, project management, and final delivery.
+        </div>
+        <div class="proj-tags">
+          <span class="tag">Laravel</span>
+          <span class="tag">Booking System</span>
+          <span class="tag">Dashboard</span>
+        </div>
+        <a href="https://tersimpancerita.id/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal">
+        <img src="assets/projects/eco.png" alt="Flagshiiip Dashboard Client" class="projects-img"/>
+        <div class="proj-title">Flagshiiip Dashboard Client</div>
+        <div class="proj-desc">
+          A secure client dashboard that enables users to manage their accounts, monitor digital assets, access blockchain-based services, and interact with the Flagshiiip ecosystem.
+        </div>
+        <div class="proj-tags">
+          <span class="tag">React.js</span>
+          <span class="tag">Dashboard</span>
+          <span class="tag">Blockchain</span>
+        </div>
+        <a href="https://dashboard.flagshiiip.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal hidden">
+        <img src="assets/projects/rier.png" alt="Rier Parfume" class="projects-img"/>
+        <div class="proj-title">Rier Parfume Commerce</div>
+        <div class="proj-desc">A modern e-commerce platform for selling premium perfumes, featuring product catalogs, secure online ordering, customer account management, and an intuitive shopping experience.
+        </div>
+        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">E-Commerce</span><span class="tag">SEO</span></div>
+        <a href="https://rierparfume.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal hidden">
+        <img src="assets/projects/ynp.png" alt="YnpLegal" class="projects-img"/>
+        <div class="proj-title">ynplegal</div>
+        <div class="proj-desc">A professional law firm website designed to showcase legal services, attorney expertise, practice areas, and provide clients with easy access to consultations and company information.
+        </div>
+        <div class="proj-tags"><span class="tag">React.js</span><span class="tag">Website</span><span class="tag">Company Profile</span></div>
+        <a href="https://ynplegal.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal hidden">
+        <img src="assets/projects/almakwa.png" alt="Al Makwa Umroh" class="projects-img"/>
+        <div class="proj-title">Al Makwa Umroh</div>
+        <div class="proj-desc">A professional travel website for Umrah services, providing comprehensive information on pilgrimage packages, travel schedules, facilities, and registration to help pilgrims plan their spiritual journey with confidence.
+        </div>
+        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">SEO</span><span class="tag">Travel</span></div>
+        <a href="https://almakwaumroh.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal hidden">
+        <img src="assets/projects/squbic.png" alt="Squbic Interior" class="projects-img"/>
+        <div class="proj-title">Squbic Interior</div>
+        <div class="proj-desc">A modern interior design company website showcasing residential and commercial projects, design services, portfolio highlights, and tailored solutions to create functional and aesthetically pleasing spaces.
+        </div>
+        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">SEO</span><span class="tag">Interior</span></div>
+        <a href="https://squbicinterior.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal hidden">
+        <img src="assets/projects/injog.png" alt="Interior Furniture Jogja" class="projects-img"/>
+        <div class="proj-title">Interior Furniture Jogja</div>
+        <div class="proj-desc">A professional website showcasing custom interior design and furniture solutions, featuring bespoke craftsmanship, project portfolios, and services for residential and commercial spaces.
+        </div>
+        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">SEO</span><span class="tag">Furniture</span></div>
+        <a href="https://interiorfurniturejogja.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal hidden">
+        <img src="assets/projects/hani.png" alt="Hanisantana" class="projects-img"/>
+        <div class="proj-title">Hanisantana</div>
+        <div class="proj-desc">A creative portfolio website showcasing artistic works, personal projects, and visual storytelling, designed to highlight the creator’s unique style and professional achievements.
+        </div>
+        <div class="proj-tags"><span class="tag">Portofolio</span><span class="tag">Art</span></div>
+        <a href="https://hanisantana.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+      <div class="glass proj-card reveal hidden">
+        <img src="assets/projects/bgr.png" alt="Top Black Garlic" class="projects-img"/>
+        <div class="proj-title">Top Black Garlic</div>
+        <div class="proj-desc">A product-focused website promoting premium black garlic, highlighting its health benefits, production process, nutritional value, and available products through an engaging and informative experience.
+        </div>
+        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">SEO</span><span class="tag">Food</span></div>
+        <a href="https://topblackgarlic.com/" target="_blank" class="proj-link">Visit Site →</a>
+      </div>
+
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <button class="btn-outline" id="showMoreBtn" onclick="toggleProjects()">Show More</button>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section>
+  <div class="section-inner">
+    <p class="section-label reveal">Credentials</p>
+    <h2 class="section-title reveal">Certifications</h2>
+    <div class="certs-grid">
+      <div class="glass cert-card reveal"><div class="cert-icon">🏅</div><div><div class="cert-name">Junior Web Developer (BNSP)</div><div class="cert-issuer">Badan Nasional Sertifikasi Profesi</div></div></div>
+      <div class="glass cert-card reveal"><div class="cert-icon">💻</div><div><div class="cert-name">Fullstack Developer</div><div class="cert-issuer">Qwords Cloud Web Hosting Indonesia</div></div></div>
+      <div class="glass cert-card reveal"><div class="cert-icon">📡</div><div><div class="cert-name">MTCNA</div><div class="cert-issuer">MikroTik Certified Network Associate</div></div></div>
+      <div class="glass cert-card reveal"><div class="cert-icon">🌐</div><div><div class="cert-name">IT Essentials & CCNA</div><div class="cert-issuer">Cisco Networking Academy</div></div></div>
+      <div class="glass cert-card reveal"><div class="cert-icon">🗃️</div><div><div class="cert-name">Database Design & SQL Programming</div><div class="cert-issuer">Oracle Academy</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-label reveal">Get in touch</p>
+    <h2 class="section-title reveal">Let's Work Together</h2>
+    <div class="contact-grid">
+      <div class="contact-links">
+        <a href="https://wa.me/6289671141721" class="glass contact-item reveal" style="text-decoration:none;">
+          <div class="contact-icon">📞</div>
+          <div><div class="contact-label">Phone</div><div class="contact-value">+62 896 7114 1721</div></div>
+        </a>
+        <a href="mailto:dhimasafri1523@gmail.com" class="glass contact-item reveal" style="text-decoration:none;">
+          <div class="contact-icon">✉️</div>
+          <div><div class="contact-label">Email</div><div class="contact-value">dhimasafri1523@gmail.com</div></div>
+        </a>
+        <a href="https://linkedin.com/in/dhimasafrisetiawan" target="_blank" class="glass contact-item reveal" style="text-decoration:none;">
+          <div class="contact-icon">💼</div>
+          <div><div class="contact-label">LinkedIn</div><div class="contact-value">dhimasafrisetiawan</div></div>
+        </a>
+      </div>
+      <div class="glass contact-card reveal">
+        <h3>Open to Opportunities</h3>
+        <p>Whether you have a project in mind, a role to fill, or just want to chat about tech — my inbox is always open.</p>
+        <a href="mailto:dhimasafri1523@gmail.com" class="btn-primary">Send a Message</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-text">© 2026 <span>Dhimas Afrisetiawan</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
