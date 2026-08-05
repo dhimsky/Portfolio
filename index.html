@@ -1,434 +1,1813 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dhimas Afrisetiawan — Portfolio</title>
-  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="en" dir="ltr">
 
-<!-- Cursor -->
-<div id="cursor"></div>
-<div id="cursor-ring"></div>
+  <head>
+    <meta charset="UTF-8">
 
-<!-- BG Orbs -->
-<div class="orb-container">
-  <div class="orb orb1 parallax-layer" data-speed="0.03"></div>
-  <div class="orb orb2 parallax-layer" data-speed="0.05"></div>
-  <div class="orb orb3 parallax-layer" data-speed="0.02"></div>
-</div>
+    <!-- Page Title -->
+    <title>Dhimas Afrisetiawan</title>
 
-<!-- NAV -->
-<nav>
-  <div class="nav-logo"></div>
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <div class="nav-right">
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-      <div class="toggle-knob"></div>
-    </button>
-    <div class="hamburger" id="hamburger">
-      <span></span><span></span><span></span>
-    </div>
-  </div>
-</nav>
+    <!-- Meta Tags -->
+    <meta name="description" content="Dhimas Afrisetiawan - Informatics Engineering graduate specializing in frontend development, WordPress, and UI/UX design. Explore a portfolio of web, mobile, and Web3 projects.">
+    <meta name="keywords" content="dhimas afrisetiawan, portfolio, frontend developer, ui ux designer, react, laravel, wordpress, web3, resume, cv">
+    <meta name="author" content="Dhimas Afrisetiawan">
 
-<!-- HERO -->
-<section class="hero" id="about">
-  <div class="hero-inner">
-    <div class="hero-content reveal">
-      <div class="hero-badge">Available for work</div>
-      <h1 class="hero-title">Hi, I'm <span class="accent">Dhimas</span><br/>Afrisetiawan</h1>
-      <p class="hero-subtitle">Frontend Developer & UI/UX Designer</p>
-      <p class="hero-desc">
-        Informatics Engineering graduate with expertise in building responsive web apps, mobile interfaces, and intuitive user experiences. Passionate about Web3, clean code, and pixel-perfect design.
-      </p>
-      <div class="hero-ctas">
-        <a href="#projects" class="btn-primary">View Projects</a>
-        <a href="https://drive.google.com/file/d/1WLjlyY7d3EPqv3oMeVEJrjJtIIXbGD7c/view?usp=sharing" class="btn-outline">View Resume</a>
+    <!-- Viewport Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <!-- Template Favicon & Icons Start -->
+    <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
+    <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="img/favicon/manifest.webmanifest">
+    <!-- Template Favicon & Icons End -->
+
+    <!-- Facebook Metadata Start -->
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:title" content="Dhimas Afrisetiawan - Frontend Developer & UI/UX Designer Portfolio">
+    <meta property="og:description" content="Informatics Engineering graduate specializing in frontend development, WordPress, and UI/UX design. Explore a portfolio of web, mobile, and Web3 projects.">
+    <meta property="og:url" content="https://dhimsky.github.io/Portfolio">
+    <!-- Facebook Metadata End -->
+
+    <!-- Template Styles Start -->
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Template Styles End -->
+
+    <!-- Custom Browser Color Start -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#EEEAE8">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f0f0f">
+    <meta name="msapplication-navbutton-color" content="#0f0f0f">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Custom Browser Color End -->
+  </head>
+
+  <body>
+
+    <!-- Loader Start -->
+    <div class="mxd-page-transition"></div>
+    <div class="mxd-loader">
+      <div class="mxd-loader__top">
+        <span>Dhimas Afrisetiawan</span>
       </div>
-    </div>
-    <div class="hero-visual reveal" style="transition-delay:0.2s;">
-      <div class="hero-card">
-        <div class="ring-decor"></div>
-        <div class="ring-decor2"></div>
-        <img src="assets/photo.jpeg" alt="Dhimas Afrisetiawan" class="avatar-circle" style="object-fit:cover;"/>
-        <div class="hero-card-name">Dhimas Afrisetiawan</div>
-        <div class="hero-card-role">Frontend Dev · UI/UX · Fullstack</div>
-        <div class="hero-stats">
-          <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Companies</div></div>
-          <div class="stat"><div class="stat-num">10+</div><div class="stat-label">Projects</div></div>
-          <div class="stat"><div class="stat-num">3.66</div><div class="stat-label">GPA</div></div>
+      <div class="mxd-loader__images">
+        <img src="img/loader/loader1.png" alt="Dhimas Afrisetiawan">
+        <img src="img/loader/loader2.png" alt="Dhimas Afrisetiawan">
+        <img src="img/loader/loader3.png" alt="Dhimas Afrisetiawan">
+        <img src="img/loader/loader4.png" alt="Dhimas Afrisetiawan">
+        <img src="img/loader/loader5.png" alt="Dhimas Afrisetiawan">
+        <img src="img/loader/loader6.png" alt="Dhimas Afrisetiawan">
+        <img src="img/loader/loader7.png" alt="Dhimas Afrisetiawan">
+      </div>
+      <div class="mxd-loader__bottom">
+        <div class="mxd-loader__count">
+          <span class="count__text">0</span>
+          <span class="count__percent">%</span>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills">
-  <div class="section-inner">
-    <p class="section-label reveal">What I do</p>
-    <h2 class="section-title reveal">Skills & Technologies</h2>
-    <p class="section-desc reveal">A versatile toolkit spanning frontend, backend, mobile development, and design — built through real-world experience.</p>
-    <div class="skills-grid">
-      <div class="glass skill-item reveal">
-        <img src="assets/skills/laravel.png" alt="Laravel" class="skill-icon img-center"/>
-        <span class="skill-name">Fullstack</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.05s;">
-        <img src="assets/skills/react.png" alt="React.js" class="skill-icon img-center"/>
-        <span class="skill-name">React.js</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.1s;">
-        <img src="assets/skills/wp.png" alt="WordPress" class="skill-icon img-center"/>
-        <span class="skill-name">WordPress</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.15s;">
-        <img src="assets/skills/figma.png" alt="Figma" class="skill-icon img-center"/>
-        <span class="skill-name">UI/UX Design</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.2s;">
-        <img src="assets/skills/php.png" alt="PHP" class="skill-icon img-center"/>
-        <span class="skill-name">PHP/Laravel</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.25s;">
-        <img src="assets/skills/css.png" alt="CSS" class="skill-icon img-center"/>
-        <span class="skill-name">HTML/CSS/JS</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.3s;">
-        <img src="assets/skills/flutter.png" alt="Flutter" class="skill-icon img-center"/>
-        <span class="skill-name">Flutter</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.35s;">
-        <img src="assets/skills/capcut.png" alt="Capcut" class="skill-icon img-center"/>
-        <span class="skill-name">Content</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.4s;">
-        <img src="assets/skills/cplus.png" alt="C++" class="skill-icon img-center"/>
-        <span class="skill-name">C++</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.45s;">
-        <img src="assets/skills/chain.png" alt="Blockchain" class="skill-icon img-center"/>
-        <span class="skill-name">Web3</span>
-      </div>
-      <div class="glass skill-item reveal" style="transition-delay:0.5s;">
-        <img src="assets/skills/ms.png" alt="Ms. Office" class="skill-icon img-center"/>
-        <span class="skill-name">Ms. Office</span>
+        <span class="mxd-loader__caption">Loading</span>
       </div>
     </div>
-  </div>
-</section>
+    <!-- Loader End -->
 
-<!-- EXPERIENCE -->
-<section id="experience">
-  <div class="section-inner">
-    <p class="section-label reveal">Where I've worked</p>
-    <h2 class="section-title reveal">Work Experience</h2>
-    <p class="section-desc reveal">From startups to corporate internships — building real products, solving real problems.</p>
-    <div class="exp-grid">
-      <div class="glass exp-card reveal">
-        <div class="exp-header">
-          <div>
-            <div class="exp-title">Frontend Developer & UI/UX Designer</div>
-            <div class="exp-company">PT Berkah Manut Gusti · Yogyakarta (Onsite)</div>
-          </div>
-          <span class="exp-period">May 2025 – Present</span>
-        </div>
-        <ul class="exp-list">
-          <li>Built responsive company and product websites from scratch.</li>
-          <li>Developed a blockchain-based loyalty program dashboard.</li>
-          <li>Integrated Web3 APIs into modern user interfaces.</li>
-          <li>Designed mobile UI for a blockchain loyalty program.</li>
-        </ul>
-      </div>
-      <div class="glass exp-card reveal">
-        <div class="exp-header">
-          <div>
-            <div class="exp-title">Web Developer & Content Web Marketplace</div>
-            <div class="exp-company">PT Apik Digital Nusantara · Cilacap (Onsite)</div>
-          </div>
-          <span class="exp-period">Oct 2024 – Apr 2025</span>
-        </div>
-        <ul class="exp-list">
-          <li>Created responsive landing pages and full-featured websites.</li>
-          <li>Designed logos, banners, and visual assets for client branding.</li>
-          <li>Optimized website performance for faster load times and SEO.</li>
-          <li>Produced ad video content for Meta and TikTok marketplaces.</li>
-        </ul>
-      </div>
-      <div class="glass exp-card reveal">
-        <div class="exp-header">
-          <div>
-            <div class="exp-title">Fullstack Developer</div>
-            <div class="exp-company">PT Qwords Company International · Jakarta (Remote)</div>
-          </div>
-          <span class="exp-period">Nov 2023 – Dec 2023</span>
-        </div>
-        <ul class="exp-list">
-          <li>Built and maintained full-stack web applications.</li>
-          <li>Engineered responsive static websites with cross-browser compatibility.</li>
-        </ul>
-      </div>
-      <div class="glass exp-card reveal">
-        <div class="exp-header">
-          <div>
-            <div class="exp-title">Software Quality Assurance</div>
-            <div class="exp-company">PT Komerce · Purbalingga (Onsite)</div>
-          </div>
-          <span class="exp-period">Oct 2023 – Dec 2023</span>
-        </div>
-        <ul class="exp-list">
-          <li>Authored comprehensive website documentation.</li>
-          <li>Collaborated with product and design teams for consistency.</li>
-          <li>Conducted market research to optimize content strategies.</li>
-        </ul>
-      </div>
-      <div class="glass exp-card reveal">
-        <div class="exp-header">
-          <div>
-            <div class="exp-title">Mobile Developer</div>
-            <div class="exp-company">PT Komerce · Purbalingga (Onsite)</div>
-          </div>
-          <span class="exp-period">Aug 2023 – Oct 2023</span>
-        </div>
-        <ul class="exp-list">
-          <li>Designed, developed, and maintained mobile applications.</li>
-          <li>Collaborated on new features with cross-functional teams.</li>
-          <li>Conducted thorough testing and debugging for performance.</li>
-        </ul>
-      </div>
-      <div class="glass exp-card reveal">
-        <div class="exp-header">
-          <div>
-            <div class="exp-title">Freelance Developer & Designer</div>
-            <div class="exp-company">Self-employed · Remote</div>
-          </div>
-          <span class="exp-period">Aug 2021 – Present</span>
-        </div>
-        <ul class="exp-list">
-          <li>Developed responsive websites and web-based systems.</li>
-          <li>Designed intuitive UI/UX to improve conversion rates.</li>
-          <li>Edited promotional videos and digital assets for clients.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects">
-  <div class="section-inner">
-    <p class="section-label reveal">What I've built</p>
-    <h2 class="section-title reveal">Featured Projects</h2>
-    <p class="section-desc reveal">Real-world applications delivered for real clients — covering Web3, e-commerce, travel, and corporate platforms.</p>
-    <div class="projects-grid">
-
-      <div class="glass proj-card reveal">
-        <img src="assets/projects/fbl.png" alt="Fibonacci Labs" class="projects-img"/>
-        <div class="proj-title">Fibonacci Labs</div>
-        <div class="proj-desc">A blockchain incubation platform dedicated to nurturing innovative startups, accelerating Web3 projects, and empowering founders with technology, strategy, and ecosystem support.
-        </div>
-        <div class="proj-tags">
-          <span class="tag">React.js</span>
-          <span class="tag">Company Profile</span>
-          <span class="tag">GSAP</span>
-        </div>
-        <a href="https://fibonaccilabs.id/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal">
-        <img src="assets/projects/ftn.png" alt="FTN Token" class="projects-img"/>
-        <div class="proj-title">FTN Token</div>
-        <div class="proj-desc">A professional token profile website showcasing the FTN ecosystem, token utility,omics, roadmap, and blockchain-powered vision for investors and the communitys.</div>
-        <div class="proj-tags"><span class="tag">React.js</span><span class="tag">Blockchain</span><span class="tag">Tokenomics</span></div>
-        <a href="https://flagshiiip.io/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal">
-        <img src="assets/projects/ftn.png" alt="FTN Apps" class="projects-img"/>
-        <div class="proj-title">FTN Apps</div>
-        <div class="proj-desc">A modern mobile application designed for the FTN ecosystem, enabling users to manage digital assets, explore token utilities, and seamlessly interact with blockchain-powered services through an intuitive interface.</div>
-        <div class="proj-tags"><span class="tag">Figma</span><span class="tag">UI/IX</span><span class="tag">Mobile App</span></div>
-        <a href="https://play.google.com/store/apps/details?id=com.flagshiiip&pcampaignid=web_share" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal">
-        <img src="assets/projects/bgr.png" alt="Top Black Garlic" class="projects-img"/>
-        <div class="proj-title">Top Black Garlic</div>
-        <div class="proj-desc">A product-focused website promoting premium black garlic, highlighting its health benefits, production process, nutritional value, and available products through an engaging and informative experience.
-        </div>
-        <div class="proj-tags"><span class="tag">Laravel</span><span class="tag">Custom CMS</span><span class="tag">Food</span></div>
-        <a href="https://topblackgarlic.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal">
-        <img src="assets/projects/flagshiiip.png" alt="Flagshiiip Company Profile" class="projects-img"/>
-        <div class="proj-title">Flagshiiip Company Profile</div>
-        <div class="proj-desc">
-          A modern company profile website showcasing Flagshiiip’s blockchain innovation, digital asset solutions, services, vision, and technology-driven ecosystem.
-        </div>
-        <div class="proj-tags">
-          <span class="tag">React.js</span>
-          <span class="tag">Company Profile</span>
-        </div>
-        <a href="https://flagshiiip.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal">
-        <img src="assets/projects/tc.png" alt="Tersimpan Cerita" class="projects-img"/>
-        <div class="proj-title">Tersimpan Cerita</div>
-        <div class="proj-desc">An end-to-end photography booking platform that streamlines the entire process, from graduation photo reservations and scheduling to payment, project management, and final delivery.
-        </div>
-        <div class="proj-tags">
-          <span class="tag">Laravel</span>
-          <span class="tag">Custom CMS</span>
-          <span class="tag">Booking System</span>
-        </div>
-        <a href="https://tersimpancerita.id/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal hidden">
-        <img src="assets/projects/eco.png" alt="Flagshiiip Dashboard Client" class="projects-img"/>
-        <div class="proj-title">Flagshiiip Dashboard Client</div>
-        <div class="proj-desc">
-          A secure client dashboard that enables users to manage their accounts, monitor digital assets, access blockchain-based services, and interact with the Flagshiiip ecosystem.
-        </div>
-        <div class="proj-tags">
-          <span class="tag">React.js</span>
-          <span class="tag">Custom CMS</span>
-          <span class="tag">Blockchain</span>
-        </div>
-        <a href="https://dashboard.flagshiiip.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal hidden">
-        <img src="assets/projects/rier.png" alt="Rier Parfume" class="projects-img"/>
-        <div class="proj-title">Rier Parfume Commerce</div>
-        <div class="proj-desc">A modern e-commerce platform for selling premium perfumes, featuring product catalogs, secure online ordering, customer account management, and an intuitive shopping experience.
-        </div>
-        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">E-Commerce</span><span class="tag">CMS</span></div>
-        <a href="https://rierparfume.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal hidden">
-        <img src="assets/projects/pikirkeri.png" alt="PikirKeri" class="projects-img"/>
-        <div class="proj-title">PikirKeri</div>
-        <div class="proj-desc">A professional law firm website designed to showcase legal services, attorney expertise, practice areas, and provide clients with easy access to consultations and company information.
-        </div>
-        <div class="proj-tags"><span class="tag">Laravel</span><span class="tag">Custom CMS</span><span class="tag">Business</span></div>
-        <a href="https://pikirkeri.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal hidden">
-        <img src="assets/projects/ynp.png" alt="YnpLegal" class="projects-img"/>
-        <div class="proj-title">ynplegal</div>
-        <div class="proj-desc">A professional law firm website designed to showcase legal services, attorney expertise, practice areas, and provide clients with easy access to consultations and company information.
-        </div>
-        <div class="proj-tags"><span class="tag">React.js</span><span class="tag">Company Profile</span><span class="tag">Legal</span></div>
-        <a href="https://ynplegal.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal hidden">
-        <img src="assets/projects/almakwa.png" alt="Al Makwa Umroh" class="projects-img"/>
-        <div class="proj-title">Al Makwa Umroh</div>
-        <div class="proj-desc">A professional travel website for Umrah services, providing comprehensive information on pilgrimage packages, travel schedules, facilities, and registration to help pilgrims plan their spiritual journey with confidence.
-        </div>
-        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">CMS</span><span class="tag">Travel</span></div>
-        <a href="https://almakwaumroh.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal hidden">
-        <img src="assets/projects/squbic.png" alt="Squbic Interior" class="projects-img"/>
-        <div class="proj-title">Squbic Interior</div>
-        <div class="proj-desc">A modern interior design company website showcasing residential and commercial projects, design services, portfolio highlights, and tailored solutions to create functional and aesthetically pleasing spaces.
-        </div>
-        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">CMS</span><span class="tag">Interior</span></div>
-        <a href="https://squbicinterior.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal hidden">
-        <img src="assets/projects/injog.png" alt="Interior Furniture Jogja" class="projects-img"/>
-        <div class="proj-title">Interior Furniture Jogja</div>
-        <div class="proj-desc">A professional website showcasing custom interior design and furniture solutions, featuring bespoke craftsmanship, project portfolios, and services for residential and commercial spaces.
-        </div>
-        <div class="proj-tags"><span class="tag">WordPress</span><span class="tag">CMS</span><span class="tag">Furniture</span></div>
-        <a href="https://interiorfurniturejogja.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-      <div class="glass proj-card reveal hidden">
-        <img src="assets/projects/hani.png" alt="Hanisantana" class="projects-img"/>
-        <div class="proj-title">Hanisantana</div>
-        <div class="proj-desc">A creative portfolio website showcasing artistic works, personal projects, and visual storytelling, designed to highlight the creator’s unique style and professional achievements.
-        </div>
-        <div class="proj-tags"><span class="tag">Portofolio</span><span class="tag">Art</span></div>
-        <a href="https://hanisantana.com/" target="_blank" class="proj-link">Visit Site →</a>
-      </div>
-
-    </div>
-    <div style="text-align:center;margin-top:40px;">
-      <button class="btn-outline" id="showMoreBtn" onclick="toggleProjects()">Show More</button>
-    </div>
-  </div>
-</section>
-
-<!-- CERTIFICATIONS -->
-<section>
-  <div class="section-inner">
-    <p class="section-label reveal">Credentials</p>
-    <h2 class="section-title reveal">Certifications</h2>
-    <div class="certs-grid">
-      <div class="glass cert-card reveal"><div class="cert-icon">🏅</div><div><div class="cert-name">Junior Web Developer (BNSP)</div><div class="cert-issuer">Badan Nasional Sertifikasi Profesi</div></div></div>
-      <div class="glass cert-card reveal"><div class="cert-icon">💻</div><div><div class="cert-name">Fullstack Developer</div><div class="cert-issuer">Qwords Cloud Web Hosting Indonesia</div></div></div>
-      <div class="glass cert-card reveal"><div class="cert-icon">📡</div><div><div class="cert-name">MTCNA</div><div class="cert-issuer">MikroTik Certified Network Associate</div></div></div>
-      <div class="glass cert-card reveal"><div class="cert-icon">🌐</div><div><div class="cert-name">IT Essentials & CCNA</div><div class="cert-issuer">Cisco Networking Academy</div></div></div>
-      <div class="glass cert-card reveal"><div class="cert-icon">🗃️</div><div><div class="cert-name">Database Design & SQL Programming</div><div class="cert-issuer">Oracle Academy</div></div></div>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <div class="section-inner">
-    <p class="section-label reveal">Get in touch</p>
-    <h2 class="section-title reveal">Let's Work Together</h2>
-    <div class="contact-grid">
-      <div class="contact-links">
-        <a href="https://wa.me/6289671141721" class="glass contact-item reveal" style="text-decoration:none;">
-          <div class="contact-icon">📞</div>
-          <div><div class="contact-label">Phone</div><div class="contact-value">+62 896 7114 1721</div></div>
-        </a>
-        <a href="mailto:dhimasafri1523@gmail.com" class="glass contact-item reveal" style="text-decoration:none;">
-          <div class="contact-icon">✉️</div>
-          <div><div class="contact-label">Email</div><div class="contact-value">dhimasafri1523@gmail.com</div></div>
-        </a>
-        <a href="https://linkedin.com/in/dhimasafrisetiawan" target="_blank" class="glass contact-item reveal" style="text-decoration:none;">
-          <div class="contact-icon">💼</div>
-          <div><div class="contact-label">LinkedIn</div><div class="contact-value">dhimasafrisetiawan</div></div>
+    <!-- Menu Hamburger Start -->
+    <div class="mxd-menu__contain loading-fade">
+      <div class="mxd-menu__toggle">
+        <a href="#0" class="mxd-menu__hamburger" aria-label="Menu">
+          <div class="hamburger__line"></div>
+          <div class="hamburger__line"></div>
         </a>
       </div>
-      <div class="glass contact-card reveal">
-        <h3>Open to Opportunities</h3>
-        <p>Whether you have a project in mind, a role to fill, or just want to chat about tech — my inbox is always open.</p>
-        <a href="mailto:dhimasafri1523@gmail.com" class="btn-primary">Send a Message</a>
-      </div>
     </div>
-  </div>
-</section>
+    <!-- Menu Hamburger End -->
 
-<!-- FOOTER -->
-<footer>
-  <p class="footer-text">© 2026 <span>Dhimas Afrisetiawan</span></p>
-</footer>
+    <!-- Navigation Start -->
+    <nav class="mxd-menu">
+      <div class="mxd-menu__backdrop"></div>
 
-<script src="script.js"></script>
-</body>
+      <!-- Menu Overlay Start -->
+      <div class="mxd-menu__overlay">
+        <div class="mxd-menu__content" data-lenis-prevent>
+
+          <!-- Menu Logo Start -->
+          <div class="mxd-menu__logo">
+            <a href="index.html" class="menu-logo">
+              <!-- logo icon -->
+              <svg class="menu-logo__image" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 42.4 36">
+                <path d="M25.8,13.8h2.8v5.5h-2.8v-5.5ZM13.8,16.6v2.8h2.8v-5.5h-2.8v2.8ZM32.2,0v2.8h-2.8V0h2.8ZM26.7,5.5h2.8v-2.8h-2.8v2.8ZM21.2,5.5h-5.5v2.8h11.1v-2.8h-5.5ZM12.8,2.8v2.8h2.8v-2.8h-2.8ZM10.1,0v2.8h2.8V0h-2.8ZM7.3,5.5v5.5h2.8V2.8h-2.8v2.8ZM4.5,13.8v2.8H0v2.8h2.8v2.8H0v2.8h2.8v11.1h2.8v-8.3h5.5v-2.8h-5.5v-8.3h1.9v-5.5h-2.9v2.8ZM35,5.5v-2.8h-2.8v8.3h2.8v-5.5ZM42.4,19.4v-2.8h-4.7v-5.5h-2.8v5.5h1.9v8.3h-5.5v2.8h5.5v8.3h2.8v-11.1h2.8v-2.8h-2.8v-2.8h2.8Z"/>
+              </svg>
+              <!-- logo text -->
+              <div class="menu-logo__text">
+                <span>Dhimas</span>
+                <span>Setiawan</span>
+              </div>
+            </a>
+          </div>
+          <!-- Menu Logo End -->
+
+          <!-- Menu Media Start -->
+          <div class="mxd-menu__media">
+            <div class="menu-media__wrapper">
+              <!-- <img src="https://dummyimage.com/900x1280/5d5d5d/838383" alt="Image"> -->
+              <video preload="auto" autoplay muted loop playsinline poster="https://dummyimage.com/900x1280/5d5d5d/838383">
+                <source type="video/mp4" src="video/900x1280.mp4">
+                <source type="video/webm" src="video/900x1280.webm">
+              </video>
+            </div>
+          </div>
+          <div class="mxd-menu__navigation">
+            <div class="mxd-menu__inner">
+              <div class="mxd-menu__shadow shadow-top"></div>
+              <div class="mxd-menu__caption">
+                <p>Building responsive websites<br>and seamless user experiences</p>
+              </div>
+              <!-- left side -->
+              <div class="mxd-menu__left">
+                <div class="main-menu">
+                  <div class="main-menu__content">
+                    <ul id="main-menu" class="main-menu__accordion">
+                      <li class="main-menu__item">
+                        <div class="main-menu__toggle">
+                          <a class="main-menu__link" href="index.html">
+                            <span class="main-menu__number">/ 01</span>
+                            <span class="main-menu__caption">Home</span>
+                          </a>
+                        </div>
+                        <div class="main-menu__divider divider-bottom"></div>
+                      </li>
+                      <li class="main-menu__item">
+                        <div class="main-menu__toggle">
+                          <a class="main-menu__link" href="contact.html">
+                            <span class="main-menu__number">/ 02</span>
+                            <span class="main-menu__caption">Contact</span>
+                          </a>
+                        </div>
+                        <div class="main-menu__divider divider-bottom"></div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- right side -->
+              <div class="mxd-menu__right">
+                <div class="menu-contact">
+                  <div class="menu-contact__item">
+                    <ul class="menu-contact__list">
+                      <li>
+                        <a class="tag tag-m" href="mailto:dhimasafri1523@gmail.com">
+                          <span class="mxd-scramble">dhimasafri1523@gmail.com</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a class="tag tag-m" href="tel:+6289671141721">
+                          <span class="mxd-scramble">+62 896-7114-1721</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="menu-contact__item">
+                    <ul class="menu-contact__list">
+                      <li>
+                        <a class="tag tag-m" href="https://goo.gl/maps/nWXKpGaDPuyH6gxRA" target="_blank">
+                          <span>Cilacap,<br>Central Java<br>Indonesia</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="menu-contact__item">
+                    <ul class="menu-contact__list">
+                      <li>
+                        <a class="tag tag-m" href="https://linkedin.com/in/dhimasafrisetiawan" target="_blank"><span class="mxd-scramble">LinkedIn</span></a>
+                      </li>
+                      <li>
+                        <a class="tag tag-m" href="https://github.com/dhimsky" target="_blank"><span class="mxd-scramble">GitHub</span></a>
+                      </li>
+                      <li>
+                        <a class="tag tag-m" href="https://wa.me/6289671141721" target="_blank"><span class="mxd-scramble">WhatsApp</span></a>
+                      </li>
+                      <li>
+                        <a class="tag tag-m" href="mailto:dhimasafri1523@gmail.com" target="_blank"><span class="mxd-scramble">Email</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- data bottom line -->
+              <div class="mxd-menu__shadow"></div>
+              <div class="mxd-menu__data">
+                <div class="menu-data__right">
+                  <p class="menu-data__text">Copyright Dhimas Afrisetiawan</p>
+                  <p class="menu-data__text">©2026</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!-- Main Navigation End -->
+
+        </div>
+      </div>
+      <!-- Menu Overlay End -->
+
+    </nav>
+    <!-- Navigation End -->
+
+    <!-- Header Start -->
+    <header id="header" class="mxd-header">
+      <!-- header logo -->
+      <div class="mxd-header__logo loading-fade">
+        <a class="mxd-logo" href="index.html">
+          <!-- logo icon -->
+          <svg class="mxd-logo__image" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 42.4 36">
+            <path d="M25.8,13.8h2.8v5.5h-2.8v-5.5ZM13.8,16.6v2.8h2.8v-5.5h-2.8v2.8ZM32.2,0v2.8h-2.8V0h2.8ZM26.7,5.5h2.8v-2.8h-2.8v2.8ZM21.2,5.5h-5.5v2.8h11.1v-2.8h-5.5ZM12.8,2.8v2.8h2.8v-2.8h-2.8ZM10.1,0v2.8h2.8V0h-2.8ZM7.3,5.5v5.5h2.8V2.8h-2.8v2.8ZM4.5,13.8v2.8H0v2.8h2.8v2.8H0v2.8h2.8v11.1h2.8v-8.3h5.5v-2.8h-5.5v-8.3h1.9v-5.5h-2.9v2.8ZM35,5.5v-2.8h-2.8v8.3h2.8v-5.5ZM42.4,19.4v-2.8h-4.7v-5.5h-2.8v5.5h1.9v8.3h-5.5v2.8h5.5v8.3h2.8v-11.1h2.8v-2.8h-2.8v-2.8h2.8Z"/>
+          </svg>
+          <!-- logo text -->
+          <div class="mxd-logo__text">
+            <span class="mxd-scramble">Dhimas</span>
+            <span class="mxd-scramble">Setiawan</span>
+          </div>
+        </a>
+      </div>
+      <!-- header controls -->
+      <div class="mxd-header__controls loading-fade">
+        <a class="btn mxd-header__link slide-right-up" href="contact.html" aria-label="Say Hello">
+          <span class="btn-caption mxd-scramble">Say Hello</span>
+          <i>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 18 18">
+              <path d="M18,0v14.4h-3.6v-7.2h-3.6v-3.6H3.6V0h14.4ZM7.2,10.8h3.6v-3.6h-3.6s0,3.6,0,3.6ZM3.6,14.4h3.6v-3.6h-3.6v3.6ZM0,18h3.6v-3.6H0v3.6Z"/>
+            </svg>
+          </i>
+          <!-- Phosphor icon -->
+          <!-- <i class="ph-bold ph-arrow-up-right"></i> -->
+        </a>
+        <button id="color-switcher" class="btn mxd-color-switcher" type="button" role="switch" aria-label="light/dark mode" aria-checked="true"></button>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Page Content Start -->
+    <main id="mxd-page-content" class="mxd-page-content">
+
+      <!-- Blur Effect Start -->
+      <div class="blur-container">
+        <div class="blur-layer blur-1"></div>
+        <div class="blur-layer blur-2"></div>
+        <div class="blur-layer blur-3"></div>
+        <div class="blur-layer blur-4"></div>
+        <div class="blur-layer blur-5"></div>
+        <div class="blur-layer blur-6"></div>
+        <div class="blur-layer blur-7"></div>
+        <div class="blur-layer blur-8"></div>
+      </div>
+      <!-- Blur Effect End -->
+
+      <!-- Hero Section Start -->
+      <div class="mxd-section mxd-hero-section pinned-section mxd-hero-fullheight-desktop loading-wrap">
+        <div class="pinned-section__inner">
+          <div class="mxd-hero-10">
+            <div class="mxd-hero-10__wrap">
+              <!-- top group -->
+              <div class="mxd-hero-10__top">
+                <div class="mxd-hero-10__headline mxd-grid-item">
+                  <div class="hero-10-headline__wrap">
+                    <h1>
+                      <a class="hero-10-headline__content active-cursor-accent" data-cursor-text="Let's Chat" href="contact.html">
+                        <span class="loading-chars">d.Setiawan</span>
+                      </a>
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <!-- center group -->
+              <div class="mxd-hero-10__center">
+                <div class="mxd-hero-10__divider"></div>
+                <div class="mxd-hero-10__data-wrap mxd-grid-item">
+                  <div class="mxd-hero__mark loading-fade">
+                    <span class="mark-icon"></span>
+                    <span class="mark-text">Available for freelance</span>
+                  </div>
+                  <div class="mxd-hero-10__descr">
+                    <p class="t-bold loading-split">I am Dhimas Afrisetiawan. <span>I'm passionate about building responsive websites and crafting intuitive, user-friendly digital experiences.</span></p>
+                  </div>
+                </div>
+                <div class="mxd-hero-10__media mxd-grid-item loading-fade">
+                  <!-- <img class="mxd-hero-10__image" src="https://dummyimage.com/1000x750/5d5d5d/838383" alt="Hero Placeholder"> -->
+                  <video 
+                    class="mxd-hero-10__video" 
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="auto"
+                    poster="https://dummyimage.com/400x225/5d5d5d/838383">
+                    <source type="video/mp4" src="video/400x225.mp4">
+                    <source type="video/webm" src="video/400x225.webm">
+                  </video>
+                  <div class="mxd-hero-10__video-btn">
+                    <a class="btn btn-default-icon-small btn-default-permanent slide-right" href="https://fibonaccilabs.id/">
+                      <span class="btn-caption mxd-scramble">New Case</span>
+                      <!-- <i class="btn-icon ph-bold ph-arrow-right"></i> -->
+                      <i class="btn-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 18 18">
+                          <path d="M10.8,0v3.6h-3.6V0h3.6ZM14.4,10.8h3.6v-3.6h-3.6v-3.6h-3.6v3.6H0v3.6h10.8v3.6h3.6v-3.6ZM10.8,14.4h-3.6v3.6h3.6v-3.6Z"/>
+                        </svg>
+                      </i>
+                    </a>
+                  </div>
+                  <div class="mxd-hero-10__video-info">
+                    <div class="hero-10-video__name">
+                      <a href="https://fibonaccilabs.id/">Fibonacci Labs</a>
+                    </div>
+                    <div class="hero-10-video__tags">
+                      <span class="tag tag-s tag-medium mxd-scramble">React.js</span>
+                      <span class="tag tag-s tag-medium mxd-scramble">GSAP</span>
+                      <span class="tag tag-s tag-medium mxd-scramble">Web Profile</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="mxd-hero-10__divider divider-bottom"></div>
+              </div>
+              <!-- bottom group -->
+              <div class="mxd-hero-10__bottom">
+                <div class="mxd-hero-10__dataline">
+                  <div class="mxd-hero-10__socials mxd-grid-item">
+                    <ul class="mxd-socials-line column">
+                      <li class="loading-item">
+                        <a class="mxd-socials-line__link" href="https://linkedin.com/in/dhimasafrisetiawan" target="_blank">
+                          <span class="mxd-scramble">LinkedIn</span>
+                        </a>
+                      </li>
+                      <li class="loading-item">
+                        <a class="mxd-socials-line__link" href="https://github.com/dhimsky" target="_blank">
+                          <span class="mxd-scramble">GitHub</span>
+                        </a>
+                      </li>
+                      <li class="loading-item">
+                        <a class="mxd-socials-line__link" href="https://wa.me/6289671141721" target="_blank">
+                          <span class="mxd-scramble">WhatsApp</span>
+                        </a>
+                      </li>
+                      <li class="loading-item">
+                        <a class="mxd-socials-line__link" href="mailto:dhimasafri1523@gmail.com" target="_blank">
+                          <span class="mxd-scramble">Email</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="mxd-hero-10__controls mxd-grid-item loading-fade">
+                    <a class="btn btn-line-icon btn-line-icon-small btn-line-default slide-down" href="#works">
+                      <span class="btn-caption mxd-scramble">Scroll to explore</span>
+                      <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 18 18">
+                          <path d="M18,10.8h-3.6v-3.6h3.6v3.6ZM7.2,14.4v3.6h3.6v-3.6h3.6v-3.6h-3.6V0h-3.6v10.8h-3.6v3.6s3.6,0,3.6,0ZM3.6,10.8v-3.6H0v3.6h3.6Z"/>
+                        </svg>
+                      </i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pinned-section__trigger"></div>
+        </div>
+        
+      </div>
+      <!-- Hero Section End -->
+
+      <!-- Section - Parallax Divider Image Start -->
+      <div class="mxd-section blur-section">
+        <div class="mxd-container fullwidth-container">
+          <div class="mxd-divider">
+            <div class="mxd-divider__image divider-image-10 parallax-img">
+              <img class="parallax-img" src="img/hero/hero.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section - Parallax Divider Image End -->
+
+      <!-- Section - Projects Grid x2 Showcase Start -->
+      <div id="works" class="mxd-section blur-section pinned-section padding-top-number padding-bottom-default">
+        <div class="pinned-section__inner">
+          <div class="mxd-container grid-l-container">
+
+            <!-- Block - Section Title v05 Start -->
+            <div class="mxd-block">
+              <div class="mxd-section-title pre-grid">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-4 mxd-grid-item">
+                      <div class="mxd-section-title__data top-number">
+                        <div class="mxd-section-title__number anim-uni-in-up">
+                          <span class="title-number mxd-scramble">W/01</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-1 mxd-grid-item"></div>
+                    <div class="col-12 col-xl-7 mxd-grid-item">
+                      <div class="mxd-section-title__title">
+                          <h2 class="mxd-split-lines">Featured case<br>studies</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Block - Section Title v05 End -->
+
+            <!-- Block - Projects Grid x2 Showcase Start -->
+            <div class="mxd-block">
+              <div class="mxd-projects-grid">
+                <div class="container-fluid p-0">
+                  <div class="row g-0 mxd-projects-grid__gallery">
+                    <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                      <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://fibonaccilabs.id/" target="_blank">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/fib/fib1.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/fib/fib2.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/fib/fib3.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__main" src="img/projects/fib/fib1.png" alt="Project Preview Image">
+                        <div class="mxd-cover mxd-cover-06"></div>
+                        <div class="mxd-project-item__logowrap">
+                          <img src="img/client-logo/fib.png" alt="Client's Logo">
+                        </div>
+                      </a>
+                      <div class="mxd-project-item__caption">
+                        <div class="mxd-project-item__name">
+                          <a class="project-name-s" href="https://fibonaccilabs.id/" target="_blank">Fibonacci Labs</a>
+                        </div>
+                        <div class="mxd-project-item__tags">
+                          <span class="tag tag-s tag-medium mxd-scramble">React.js</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">GSAP</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Web Profile</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                      <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://flagshiiip.io/" target="_blank">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-token/1.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-token/2.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-token/3.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__main" src="img/projects/ftn-token/1.png" alt="Project Preview Image">
+                        <div class="mxd-cover mxd-cover-06"></div>
+                        <div class="mxd-project-item__logowrap">
+                          <img src="img/client-logo/ftn.png" alt="Client's Logo">
+                        </div>
+                      </a>
+                      <div class="mxd-project-item__caption">
+                        <div class="mxd-project-item__name">
+                          <a class="project-name-s" href="https://flagshiiip.io/" target="_blank">Token Profile</a>
+                        </div>
+                        <div class="mxd-project-item__tags">
+                          <span class="tag tag-s tag-medium mxd-scramble">React.js</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Blockchain</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Tokenomics</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                      <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://flagshiiip.com/" target="_blank">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-com/1.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-com/2.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-com/3.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__main" src="img/projects/ftn-com/1.png" alt="Project Preview Image">
+                        <div class="mxd-cover mxd-cover-06"></div>
+                        <div class="mxd-project-item__logowrap">
+                          <img src="img/client-logo/ftn-com.png" alt="Client's Logo">
+                        </div>
+                      </a>
+                      <div class="mxd-project-item__caption">
+                        <div class="mxd-project-item__name">
+                          <a class="project-name-s" href="https://flagshiiip.com/" target="_blank">Flagshiiip Web3 Loyalty</a>
+                        </div>
+                        <div class="mxd-project-item__tags">
+                          <span class="tag tag-s tag-medium mxd-scramble">React.js</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Web3</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Web Profile</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-1 mxd-project-divider"></div>
+                  </div>
+                  <div class="row g-0 mxd-projects-grid__gallery">
+                    <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                      <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://play.google.com/store/apps/details?id=com.flagshiiip&pcampaignid=web_share" target="_blank">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-app/3.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-app/2.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-app/1.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__main" src="img/projects/ftn-app/3.png" alt="Project Preview Image">
+                        <div class="mxd-cover mxd-cover-06"></div>
+                        <div class="mxd-project-item__logowrap">
+                          <img src="img/client-logo/ftn.png" alt="Client's Logo">
+                        </div>
+                      </a>
+                      <div class="mxd-project-item__caption">
+                        <div class="mxd-project-item__name">
+                          <a class="project-name-s" href="https://play.google.com/store/apps/details?id=com.flagshiiip&pcampaignid=web_share" target="_blank">FTN APPS</a>
+                        </div>
+                        <div class="mxd-project-item__tags">
+                          <span class="tag tag-s tag-medium mxd-scramble">UI/UX</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Mobile App</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Blockchain</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                      <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://tersimpancerita.id/" target="_blank">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tc/1.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tc/2.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tc/3.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tc/1.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tc/2.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tc/3.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__main" src="img/projects/tc/1.png" alt="Project Preview Image">
+                        <div class="mxd-cover mxd-cover-06"></div>
+                        <div class="mxd-project-item__logowrap">
+                          <img src="img/client-logo/tc.png" alt="Client's Logo">
+                        </div>
+                      </a>
+                      <div class="mxd-project-item__caption">
+                        <div class="mxd-project-item__name">
+                          <a class="project-name-s" href="https://tersimpancerita.id/" target="_blank">Tersimpan Cerita</a>
+                        </div>
+                        <div class="mxd-project-item__tags">
+                          <span class="tag tag-s tag-medium mxd-scramble">Laravel</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Custom CMS</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Booking Sistem</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                      <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://topblackgarlic.com/" target="_blank">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tbg/1.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tbg/2.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__absolute centered-y" src="img/projects/tbg/3.png" alt="Project Preview Image">
+                        <img class="mxd-img-anim__main" src="img/projects/tbg/1.png" alt="Project Preview Image">
+                        <div class="mxd-cover mxd-cover-06"></div>
+                        <div class="mxd-project-item__logowrap">
+                          <img src="img/client-logo/tbg.png" alt="Client's Logo">
+                        </div>
+                      </a>
+                      <div class="mxd-project-item__caption">
+                        <div class="mxd-project-item__name">
+                          <a class="project-name-s" href="https://topblackgarlic.com/" target="_blank">Top Black Garlic</a>
+                        </div>
+                        <div class="mxd-project-item__tags">
+                          <span class="tag tag-s tag-medium mxd-scramble">Laravel</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Custom CMS</span>
+                          <span class="tag tag-s tag-medium mxd-scramble">Healty</span>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row g-0 mxd-projects-grid__gallery">
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://dashboard.flagshiiip.com/login" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-dashboard/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-dashboard/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/ftn-dashboard/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/ftn-dashboard/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/client-logo/eco.png" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://dashboard.flagshiiip.com/login" target="_blank">Owner Dashboard</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">React.js</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Dashboard</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Blockchain</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://rierparfume.com/" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/rier/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/rier/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/rier/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/rier/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/client-logo/rier.png" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://rierparfume.com/" target="_blank">Rier Parfume Commerce</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">WordPress</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">WebCommerce</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">CMS</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://almakwaumroh.com/" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/almakwa/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/almakwa/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/almakwa/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/almakwa/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/client-logo/almakwa.png" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://almakwaumroh.com/" target="_blank">Al Makwa Umroh</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">WordPress</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">CMS</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Travel</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row g-0 mxd-projects-grid__gallery">
+
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://ynplegal.com/" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/ynp/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/ynp/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/ynp/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/ynp/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/client-logo/ynp.png" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://ynplegal.com/" target="_blank">YNPLegal</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">React.js</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Company Profile</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Legal</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://squbicinterior.com/" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/squbic/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/squbic/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/squbic/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/squbic/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/client-logo/squbic.png" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://squbicinterior.com/" target="_blank">Squbic Interior</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">WordPress</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">CMS</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Interior Design</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://interiorfurniturejogja.com/" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/infujog/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/infujog/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/infujog/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/infujog/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/client-logo/injog.png" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://interiorfurniturejogja.com/" target="_blank">Interior Furniture Jogja</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">WordPress</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">CMS</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Furniture</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row g-0 mxd-projects-grid__gallery">
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://hanisantana.com/" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/hanisan/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/hanisan/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/hanisan/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/hanisan/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/client-logo/hani.png" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://hanisantana.com/" target="_blank">Hanisantana</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">UI/UX</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Portofolio</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Art</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://pikirkeri.com/" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/pikirkeri/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/pikirkeri/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/pikirkeri/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/pikirkeri/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/client-logo/pikirkeri.png" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://pikirkeri.com/" target="_blank">Pikir Keri</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">Laravel</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Custom CMS</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Company Profile</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 mxd-project-item animate-card-2 mxd-project-item-s mxd-project-item-sticky">
+                        <a class="mxd-project-item__media mxd-img-anim active-cursor-permanent" data-cursor-text="View Work" href="https://niggoatmilk.com/" target="_blank">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/niggoat/1.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/niggoat/2.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__absolute centered-y" src="img/projects/niggoat/3.png" alt="Project Preview Image">
+                          <img class="mxd-img-anim__main" src="img/projects/niggoat/1.png" alt="Project Preview Image">
+                          <div class="mxd-cover mxd-cover-06"></div>
+                          <div class="mxd-project-item__logowrap">
+                            <img src="img/works/showcase-sticky/clients/01.svg" alt="Client's Logo">
+                          </div>
+                        </a>
+                        <div class="mxd-project-item__caption">
+                          <div class="mxd-project-item__name">
+                            <a class="project-name-s" href="https://niggoatmilk.com/" target="_blank">Nig-Goat Milk</a>
+                          </div>
+                          <div class="mxd-project-item__tags">
+                            <span class="tag tag-s tag-medium mxd-scramble">Laravel</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Custom CMS</span>
+                            <span class="tag tag-s tag-medium mxd-scramble">Company Profile</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-1 mxd-project-divider"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Block - Projects Grid x2 Showcase End -->
+
+          </div>
+          <div class="pinned-section__trigger"></div>
+        </div>
+      </div>
+      <!-- Section - Projects Grid x2 Showcase End -->
+
+      <!-- Section - Parallax Divider Image Start -->
+      <div class="mxd-section blur-section">
+        <div class="mxd-container fullwidth-container">
+          <div class="mxd-divider">
+            <div class="mxd-divider__image divider-image-5 parallax-img">
+              <img class="parallax-img" src="img/hero/hero2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section - Parallax Divider Image End -->
+
+      <!-- Section - Statistics Lines Start -->
+      <div class="mxd-section blur-section padding-top-number padding-bottom-tag-m">
+        <div class="pinned-section__inner">
+          <div class="mxd-container grid-l-container">
+          <div class="mxd-block">
+            <div class="mxd-section-title">
+              <div class="container-fluid p-0">
+                <div class="row g-0">
+                  <div class="col-12 col-xl-3 col-xxl-4 mxd-grid-item">
+                    <div class="mxd-section-title__data top-number">
+                      <div class="mxd-section-title__number pre-manifest anim-uni-in-up">
+                        <span class="title-number mxd-scramble">A/02</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-xl-1 mxd-grid-item"></div>
+                  <div class="col-12 col-xl-8 col-xxl-7 mxd-grid-item">
+
+                    <!-- Manifest Start -->
+                    <div class="mxd-section-title__manifest title-manifest-s no-padding-mobile">
+                      <a class="manifest manifest-s mxd-split-lines active-cursor-accent" data-cursor-text="About me">
+                        Software development is evolving rapidly, and I strive to stay ahead. 
+                        <span>Modern frameworks and tools enable me to build scalable, high-performing, and 
+                        user-friendly digital products.</span></a>
+                    </div>
+                    <!-- Manifest End -->
+
+                    <!-- Statistics Lines Start -->
+                    <div class="mxd-stats-lines manifest-title">
+                      <!-- statistics single item -->
+                      <div class="mxd-stats-lines__item">
+                        <div class="mxd-stats-lines__divider divider-top"></div>
+                        <div class="mxd-stats-lines__inner mxd-stats-lines__anim">
+                          <div class="mxd-stats-lines__number">
+                            <p id="stats-counter-1">15+</p>
+                          </div>
+                          <div class="mxd-stats-lines__caption">
+                            <p>Happy clients who trust my work</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- statistics single item -->
+                      <div class="mxd-stats-lines__item">
+                        <div class="mxd-stats-lines__divider divider-top"></div>
+                        <div class="mxd-stats-lines__inner mxd-stats-lines__anim">
+                          <div class="mxd-stats-lines__number">
+                            <p id="stats-counter-2">90%</p>
+                          </div>
+                          <div class="mxd-stats-lines__caption">
+                            <p>Clients come back for a new projects</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- statistics single item -->
+                      <div class="mxd-stats-lines__item">
+                        <div class="mxd-stats-lines__divider divider-top"></div>
+                        <div class="mxd-stats-lines__inner mxd-stats-lines__anim">
+                          <div class="mxd-stats-lines__number">
+                            <p id="stats-counter-3">5+</p>
+                          </div>
+                          <div class="mxd-stats-lines__caption">
+                            <p>Years of professional experience</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- statistics single item -->
+                      <div class="mxd-stats-lines__item">
+                        <div class="mxd-stats-lines__divider divider-top"></div>
+                        <div class="mxd-stats-lines__inner mxd-stats-lines__anim">
+                          <div class="mxd-stats-lines__number">
+                            <p id="stats-counter-4">30+</p>
+                          </div>
+                          <div class="mxd-stats-lines__caption">
+                            <p>Successfully completed projects</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Statistics Lines End -->
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="pinned-section__trigger"></div>
+        </div>
+      </div>
+      <!-- Section - Statistics Lines End -->
+
+      <!-- Divider - Sticky Images Start -->
+      <div class="mxd-section">
+
+        <div class="mxd-dv-sticky-img">
+          <div class="mxd-dv-sticky-img__sticky">
+            <!-- progress bar -->
+            <div class="mxd-dv-sticky-img__progress"></div>
+            <!-- images -->
+            <div class="mxd-dv-sticky-img__images">
+              <div class="images__list">
+                <!-- image item -->
+                <div class="images__listitem">
+                  <div class="images__overflow">
+                    <div class="mxd-cover mxd-cover-06"></div>
+                    <img class="images__img" src="img/process/1.png" alt="Image">
+                  </div>
+                </div>
+                <!-- image item -->
+                <div class="images__listitem">
+                  <div class="images__overflow">
+                    <div class="mxd-cover mxd-cover-06"></div>
+                    <img class="images__img" src="img/process/2.png" alt="Image">
+                  </div>
+                </div>
+                <!-- image item -->
+                <div class="images__listitem">
+                  <div class="images__overflow">
+                    <div class="mxd-cover mxd-cover-06"></div>
+                    <img class="images__img" src="img/process/3.png" alt="Image">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- text content -->
+            <div class="mxd-dv-sticky-img__content">
+              <!-- counter -->
+              <p class="mxd-dv-sticky-img__number">
+                <span class="number__current">01</span>
+                &nbsp;/&nbsp;
+                <span class="number__total">03</span>
+              </p>
+              <!-- titles -->
+              <div class="mxd-dv-sticky-img__titlewrap">
+                <div class="mxd-dv-sticky-img__titlelist">
+                  <div class="mxd-dv-sticky-img__titleitem">
+                    <h2 class="permanent">Strategy</h2>
+                  </div>
+                  <div class="mxd-dv-sticky-img__titleitem">
+                    <h2 class="permanent">Design</h2>
+                  </div>
+                  <div class="mxd-dv-sticky-img__titleitem">
+                    <h2 class="permanent">Development</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- permanent button -->
+              <div class="mxd-dv-sticky-img__btnholder">
+                <a class="btn btn-line btn-line-permanent">
+                  <span class="btn-caption mxd-scramble">Process</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Divider - Sticky Images End -->
+      
+      <!-- Section - My Expertise Start -->
+      <div class="mxd-section blur-section padding-top-number padding-bottom-default">
+        <div class="mxd-container grid-l-container">
+
+          <!-- Block - Section Title v05 Start -->
+          <div class="mxd-block">
+            <div class="mxd-section-title pre-grid">
+              <div class="container-fluid p-0">
+                <div class="row g-0">
+                  <div class="col-12 col-xl-3 mxd-grid-item">
+                    <div class="mxd-section-title__data top-number">
+                      <div class="mxd-section-title__number anim-uni-in-up">
+                        <span class="title-number mxd-scramble">E/03</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-xl-1 mxd-grid-item"></div>
+                  <div class="col-12 col-xl-8 mxd-grid-item">
+                    <div class="mxd-section-title__title">
+                      <a class="active-cursor-accent" data-cursor-text="I do best">
+                        <h2 class="mxd-split-lines">My expertise</h2>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Block - Section Title v05 End -->
+
+          <!-- Block - Our Capabilities List Start -->
+          <div class="mxd-block">
+            <div class="mxd-cpb-list mxd-perspective-list">
+              <!-- capabilities item -->
+              <div class="mxd-cpb-list__item mxd-perspective-list__item">
+                <!-- divider top -->
+                <div class="mxd-cpb-list__divider top"></div>
+                <div class="mxd-cpb-list__inner mxd-perspective-list__inner">
+                  <div class="container-fluid p-0">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-4 mxd-grid-item mxd-cpb-list__title">
+                        <div class="mxd-cpb-list__number">
+                          <span class="meta-tag">[01]</span>
+                        </div>
+                        <p class="mxd-cpb-list__name">UI/UX Design</p>
+                      </div>
+
+                      <div class="col-12 col-md-6 col-xl-4 mxd-grid-item mxd-cpb-list__image">
+                        <img src="img/service/ser1.png" alt="UI/UX Design">
+                      </div>
+
+                      <div class="col-12 col-md-6 col-xl-4 mxd-cpb-list__data">
+                        <div class="mxd-cpb-list__descr mxd-grid-item">
+                          <p class="t-large t-bold">
+                            Designing intuitive experiences and
+                            <span>beautiful interfaces that users love.</span>
+                          </p>
+                        </div>
+
+                        <div class="mxd-cpb-list__tags">
+                          <div class="container-fluid p-0">
+                            <div class="row g-0">
+                              <div class="col-6 mxd-grid-item mxd-cpb-list__meta">
+                                <span class="meta-tag mxd-scramble">User Research</span>
+                                <span class="meta-tag mxd-scramble">Wireframing</span>
+                              </div>
+
+                              <div class="col-6 mxd-grid-item mxd-cpb-list__meta">
+                                <span class="meta-tag mxd-scramble">Prototyping</span>
+                                <span class="meta-tag mxd-scramble">Design System</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- divider bottom -->
+                <div class="mxd-cpb-list__divider bottom"></div>
+              </div>
+              <!-- capabilities item -->
+              <div class="mxd-cpb-list__item mxd-perspective-list__item">
+                <!-- divider top -->
+                <div class="mxd-cpb-list__divider top"></div>
+                <div class="mxd-cpb-list__inner mxd-perspective-list__inner">
+                  <div class="container-fluid p-0">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-4 mxd-grid-item mxd-cpb-list__title">
+                        <div class="mxd-cpb-list__number">
+                          <span class="meta-tag">[02]</span>
+                        </div>
+                        <p class="mxd-cpb-list__name">Web app development</p>
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 mxd-grid-item mxd-cpb-list__image">
+                        <img src="img/service/ser2.png" alt="Web App Development">
+                      </div>
+                      <div class="col-12 col-md-6 col-xl-4 mxd-cpb-list__data">
+                        <div class="mxd-cpb-list__descr mxd-grid-item">
+                          <p class="t-large t-bold">Elegant, high-speed web experiences that <span>feel effortless and refined.</span></p>
+                        </div>
+                        <div class="mxd-cpb-list__tags">
+                          <div class="container-fluid p-0">
+                            <div class="row g-0">
+                              <div class="col-6 mxd-grid-item mxd-cpb-list__meta">
+                                <span class="meta-tag mxd-scramble">Frontend</span>
+                                <span class="meta-tag mxd-scramble">Backend</span>
+                                <span class="meta-tag mxd-scramble">React.js</span>
+                              </div>
+                              <div class="col-6 mxd-grid-item mxd-cpb-list__meta">
+                                <span class="meta-tag mxd-scramble">Usability</span>
+                                <span class="meta-tag mxd-scramble">Laravel</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- divider bottom -->
+                <div class="mxd-cpb-list__divider bottom"></div>
+              </div>
+              <!-- capabilities item -->
+              <div class="mxd-cpb-list__item mxd-perspective-list__item">
+                <!-- divider top -->
+                <div class="mxd-cpb-list__divider top"></div>
+                <div class="mxd-cpb-list__inner mxd-perspective-list__inner">
+                  <div class="container-fluid p-0">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-4 mxd-grid-item mxd-cpb-list__title">
+                        <div class="mxd-cpb-list__number">
+                          <span class="meta-tag">[03]</span>
+                        </div>
+                        <p class="mxd-cpb-list__name">Video & Photo Editing</p>
+                      </div>
+
+                      <div class="col-12 col-md-6 col-xl-4 mxd-grid-item mxd-cpb-list__image">
+                        <img src="img/service/ser3.png" alt="Video & Photo Editing">
+                      </div>
+
+                      <div class="col-12 col-md-6 col-xl-4 mxd-cpb-list__data">
+                        <div class="mxd-cpb-list__descr mxd-grid-item">
+                          <p class="t-large t-bold">
+                            Creating engaging videos with
+                            <span>cinematic storytelling and seamless editing.</span>
+                          </p>
+                        </div>
+
+                        <div class="mxd-cpb-list__tags">
+                          <div class="container-fluid p-0">
+                            <div class="row g-0">
+                              <div class="col-6 mxd-grid-item mxd-cpb-list__meta">
+                                <span class="meta-tag mxd-scramble">Adobe Premiere Pro</span>
+                                <span class="meta-tag mxd-scramble">Adobe Photoshop</span>
+                              </div>
+
+                              <div class="col-6 mxd-grid-item mxd-cpb-list__meta">
+                                <span class="meta-tag mxd-scramble">Color Grading</span>
+                                <span class="meta-tag mxd-scramble">Motion Graphics</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- divider bottom -->
+                <div class="mxd-cpb-list__divider bottom"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Block - Our Capabilities List End -->
+
+          </div>
+      </div>
+      <!-- Section - My Expertise End -->
+
+      <!-- Section - Parallax Divider Image Start -->
+      <div class="mxd-section blur-section">
+        <div class="mxd-container fullwidth-container">
+          <div class="mxd-divider">
+            <div class="mxd-divider__image divider-image-4 parallax-img">
+              <img class="parallax-img" src="img/hero/hero.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section - Parallax Divider Image End -->
+
+      <!-- Section - Resume Start -->
+      <div class="mxd-section blur-section pinned-section padding-top-number padding-bottom-default">
+        <div class="pinned-section__inner">
+          <div class="mxd-container grid-l-container">
+
+            <!-- Section Title v06 Start -->
+            <div class="mxd-block">
+              <div class="mxd-section-title">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-4 mxd-grid-item">
+                      <div class="mxd-section-title__data top-number">
+                        <div class="mxd-section-title__number anim-uni-in-up">
+                          <span class="title-number mxd-scramble">CV/04</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-8 mxd-grid-item">
+                      <div class="mxd-section-title__title pre-caption-extra">
+                        <a class="active-cursor-accent" data-cursor-text="Download CV" href="#0">
+                          <h2 class="mxd-split-lines">My digital<br>journey</h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mxd-section-info">
+                <div class="container-fluid p-0">
+                  <div class="row g-0 d-flex flex-column-reverse flex-xl-row">
+                    <div class="col-12 col-xl-4 mxd-grid-item"></div>
+                    <div class="col-12 col-xl-8 mxd-grid-item">
+                      <div class="mxd-section-info__descr">
+                        <p class="t-extra t-bold">
+                          <a class="active-cursor-accent mxd-split-lines" data-cursor-text="Download CV" href="#0">Software development is evolving rapidly, and I strive 
+                          to stay ahead. <span>Modern frameworks and tools enable me to build scalable, 
+                          high-performing, and user-friendly digital products.</span></a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Section Title v06 End -->
+
+            <!-- Section Subtitle v01 Start -->
+            <div class="mxd-block">
+              <div class="mxd-section-subtitle padding-info-top">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-4 mxd-grid-item"> </div>
+                    <div class="col-12 col-xl-8 mxd-grid-item">
+                      <div class="mxd-section-subtitle__tagline">
+                        <p class="anim-uni-in-up">
+                          <span class="tag tag-m meta-tag">[01] Experience</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Section Subtitle v01 End -->
+
+            <!-- Block - Resume List Start -->
+            <div class="mxd-block">
+              <div class="mxd-resume">
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p>Frontend Developer & UI/UX Designer</p>
+                        </div>
+                      </div>
+                      
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p><a href="#0" target="_blank">PT Berkah Manut Gusti</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p>May 2025 - now</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p class="anim-uni-in-up">Web Developer & Content Web Marketplace</p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p class="anim-uni-in-up"><a href="#0" target="_blank">PT Apik Digital Nusantara</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p class="anim-uni-in-up">Oct 2024 - Apr 2025</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p class="anim-uni-in-up">Fullstack Developer</p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p class="anim-uni-in-up"><a href="#0" target="_blank">PT Qwords Company International</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p class="anim-uni-in-up">Nov 2023 - Dec 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p class="anim-uni-in-up">Software Quality Assurance</p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p class="anim-uni-in-up"><a href="#0" target="_blank">PT Kampung Marketerindo Berdaya (KOMERCE)</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p class="anim-uni-in-up">Oct 2023 - Dec 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p class="anim-uni-in-up">Mobile Developer</p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p class="anim-uni-in-up"><a href="#0" target="_blank">PT Kampung Marketerindo Berdaya (KOMERCE)</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p class="anim-uni-in-up">Aug 2023 - Oct 2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p class="anim-uni-in-up">Freelance Web & App Developer</p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p class="anim-uni-in-up"><a href="#0" target="_blank">Self-employed</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p class="anim-uni-in-up">Aug 2021 - present</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Block - Resume List End -->
+
+            <!-- Section Subtitle v01 Start -->
+            <div class="mxd-block">
+              <div class="mxd-section-subtitle padding-default">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-4 mxd-grid-item"> </div>
+                    <div class="col-12 col-xl-8 mxd-grid-item">
+                      <div class="mxd-section-subtitle__tagline anim-uni-in-up">
+                        <p class="anim-uni-in-up">
+                          <span class="tag tag-m meta-tag">[02] Education</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Section Subtitle v01 End -->
+
+            <!-- Block - Resume List Start -->
+            <div class="mxd-block">
+              <div class="mxd-resume">
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p class="anim-uni-in-up">Associate Degree of Computer Engineering</p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p class="anim-uni-in-up"><a href="#0" target="_blank">Politeknik Negeri Cilacap</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p class="anim-uni-in-up">2021 - 2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p class="anim-uni-in-up">Fullstack Developer Certification</p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p class="anim-uni-in-up"><a href="#0" target="_blank">Qwords Cloud Web Hosting Indonesia</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p class="anim-uni-in-up">2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- resume item -->
+                <div class="mxd-resume__item">
+                  <div class="container-fluid px-0 mxd-resume__inner">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-7 mxd-grid-item">
+                        <div class="mxd-resume__title">
+                          <p class="anim-uni-in-up">Database Design & SQL Programming</p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-3 mxd-grid-item">
+                        <div class="mxd-resume__link">
+                          <p class="anim-uni-in-up"><a href="#0" target="_blank">Oracle</a></p>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-2 mxd-grid-item">
+                        <div class="mxd-resume__date">
+                          <p class="anim-uni-in-up">2023</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Block - Resume List End -->
+
+            <!-- Section Subtitle v01 Start -->
+            <div class="mxd-block">
+              <div class="mxd-section-subtitle padding-default pre-grid-mobile">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-4 mxd-grid-item"></div>
+                    <div class="col-12 col-xl-8 mxd-grid-item">
+                      <div class="mxd-section-subtitle__tagline anim-uni-in-up">
+                        <p class="anim-uni-in-up">
+                          <span class="tag tag-m meta-tag">[03] Everyday's toolbox</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Section Subtitle v01 End -->
+
+            <!-- Block Toolbox List Start -->
+            <div class="mxd-block">
+              <div class="container-fluid p-0">
+                <div class="row g-0">
+                  <div class="col-12 col-xl-4 mxd-grid-item"></div>
+                  <div class="col-12 col-xl-4 mxd-grid-item">
+                    <div class="mxd-toolbox">
+                      <!-- toolbox item -->
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/1.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Visual Studio Code</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/11.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Figma</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/2.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Postman</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/3.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Notion</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/4.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Docker</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/5.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Github</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-xl-4 mxd-grid-item">
+                    <div class="mxd-toolbox">
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/6.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Table Plus</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/13.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Chrome</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/12.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Claude</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/14.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Capcut</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/8.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Photoshop</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                      <div class="mxd-toolbox__item">
+                        <div class="mxd-toolbox__divider divider-top anim-uni-clip-in"></div>
+                        <div class="mxd-toolbox__icon anim-uni-slide-down">
+                          <img src="img/tools/9.png" alt="Dhimas Icon">
+                        </div>
+                        <div class="mxd-toolbox__name anim-uni-slide-down">
+                          <p>Premiere Pro</p>
+                        </div>
+                        <div class="mxd-toolbox__divider divider-bottom anim-uni-clip-in"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Block Toolbox List End -->
+
+          </div>
+          <div class="pinned-section__trigger"></div>
+        </div>
+        
+      </div>
+      <!-- Section - Resume End -->
+
+      <!-- Section - Parallax Divider Video Start -->
+      <div class="mxd-section blur-section">
+        <div class="mxd-container fullwidth-container">
+          <div class="mxd-divider">
+            <div class="mxd-divider__video">
+              <video class="video parallax-video" 
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="auto"
+                poster="img/hero/hero2.png">
+                <source type="video/mp4" src="video/1280x720.mp4">
+                <source type="video/webm" src="video/1280x720.webm">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section - Parallax Divider Video End -->
+      
+      <!-- Section - CTA with Matter.js Objects Start -->
+      <div class="mxd-section blur-section">
+        <div class="mxd-container fullwidth-container">
+
+          <!-- Block - CTA with Matter.js Objects Start -->
+          <div class="mxd-block">
+            <div class="mxd-promo mxd-gravity-section accent">
+              <div class="mxd-promo__wrap">
+                <div class="mxd-promo__objects object-container">
+                  <div class="object object-image">
+                    <img src="img/cta/01.webp" alt="Dhimas Image">
+                  </div>
+                  <div class="object object-type">
+                    <p>Web</p>
+                  </div>
+                  <div class="object object-image">
+                    <img src="img/cta/02.webp" alt="Dhimas Image">
+                  </div>
+                  <div class="object object-type">
+                    <p>UI/UX</p>
+                  </div>
+                  <div class="object object-image">
+                    <img src="img/cta/03.webp" alt="Dhimas Image">
+                  </div>
+                  <div class="object object-type">
+                    <p>Mobile</p>
+                  </div>
+                  <div class="object object-image">
+                    <img src="img/cta/04.webp" alt="Dhimas Image">
+                  </div>
+                  <div class="object object-type">
+                    <p>WordPress</p>
+                  </div>
+                  <div class="object object-image">
+                    <img src="img/cta/05.webp" alt="Dhimas Image">
+                  </div>
+                  <div class="object object-type">
+                    <p>Web3</p>
+                  </div>
+                  <div class="object object-image">
+                    <img src="img/cta/06.webp" alt="Dhimas Image">
+                  </div>
+                  <div class="object object-type">
+                    <p>Design</p>
+                  </div>
+                </div>
+                <div class="mxd-promo__content">
+                  <div class="mxd-promo__btngroup anim-uni-in-up">
+                    <a class="btn btn-line btn-line-permanent" href="contact.html">
+                      <span class="btn-caption mxd-scramble">Write a line</span>
+                    </a>
+                  </div>
+                  <div class="mxd-promo__caption">
+                    <a class="active-cursor-permanent" data-cursor-text="Contact Me" href="contact.html">
+                      <h2 class="mxd-split-lines permanent">Let's talk about your project</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Block - CTA with Matter.js Objects End -->
+
+        </div>
+      </div>
+      <!-- Section - CTA with Matter.js Objects End -->
+
+    </main>
+    <!-- Page Content End -->
+
+    <!-- Footer Start -->
+    <footer id="mxd-footer" class="mxd-footer blur-section">
+      <div class="mxd-container grid-l-container">
+        <div class="mxd-block mt-5">
+          <div class="mxd-footer__footer-blocks">
+            <div class="footer-blocks__column mxd-grid-item justify-start">
+              <div class="footer-blocks__data justify-start">
+                <p class="footer-data">
+                  <a class="anim-uni-slide-down" href="mailto:dhimasafri1523@gmail.com">
+                    <span class="mxd-scramble">dhimasafri1523@gmail.com</span>
+                  </a>
+                </p>
+                <p class="footer-data">
+                  <a class="anim-uni-slide-down" href="tel:+6289671141721">
+                    <span class="mxd-scramble">+62 896-7114-1721</span>
+                  </a>
+                </p>
+                <p class="footer-data anim-uni-slide-down">
+                  <span>Cilacap, Central Java, Indonesia</span>
+                </p>
+              </div>
+            </div>
+            <div class="footer-blocks__column mxd-grid-item justify-end">
+              <div class="footer-blocks__data justify-end">
+                <p class="footer-data anim-uni-slide-down">
+                  <span class="mxd-slide-down">©2026</span>
+                </p>
+                <p class="footer-data anim-uni-slide-down">
+                  <span class="mxd-slide-down">Copyright Dhimas Afrisetiawan. All rights reserved</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Block - Info Columns End -->
+
+        <!-- Footer Block - Fullwidth Text Start -->
+        <div class="mxd-block">
+          <div class="mxd-footer__fw-mark mxd-grid-item">
+            <div class="fw-mark__wrap">
+              <div class="fw-mark__content">
+                <span class="anim-uni-chars">DHIMAS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer Block - Fullwidth Text End -->
+
+        <!-- Footer Block - Links Start -->
+        <div class="mxd-block">
+          <div class="mxd-footer__footer-blocks bottom-blocks">
+            <div class="footer-blocks__column mxd-grid-item justify-start">
+              <div class="footer-blocks__socials">
+                <ul class="mxd-socials-line anim-uni-fade-in">
+                  <li>
+                    <a class="mxd-socials-line__link" href="https://linkedin.com/in/dhimasafrisetiawan" target="_blank">
+                      <span class="mxd-scramble">LinkedIn</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="mxd-socials-line__link" href="https://github.com/dhimsky" target="_blank">
+                      <span class="mxd-scramble">GitHub</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="mxd-socials-line__link" href="https://wa.me/6289671141721" target="_blank">
+                      <span class="mxd-scramble">WhatsApp</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="mxd-socials-line__link" href="mailto:dhimasafri1523@gmail.com" target="_blank">
+                      <span class="mxd-scramble">Email</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-blocks__column mxd-grid-item justify-end">
+              <div class="footer-blocks__controls anim-uni-fade-in">
+                <a id="to-top" class="btn btn-line-icon btn-line-default slide-up" href="#">
+                  <span class="btn-caption mxd-scramble">Back to Top</span>
+                  <i>
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 18 18" style="enable-background:new 0 0 18 18;" xml:space="preserve">
+                    <path d="M0,7.2h3.6v3.6H0V7.2z M10.8,3.6V0H7.2v3.6H3.6v3.6h3.6V18h3.6V7.2h3.6V3.6H10.8z M14.4,7.2v3.6H18V7.2H14.4z"/>
+                    </svg>
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Footer Block - Links End -->
+
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- To Top Button End -->
+
+    <div id="mxd-cursor" class="mxd-cursor">
+      <div id="mxd-cursor__dot" class="mxd-cursor__dot"></div>
+      <p id="mxd-cursor__text" class="mxd-cursor__text"></p>
+      <div id="mxd-cursor__image" class="mxd-cursor__image"></div>
+    </div>
+
+    <!-- Load Scripts Start -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Load Scripts End -->
+    
+  </body>
+
 </html>
