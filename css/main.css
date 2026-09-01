@@ -20899,6 +20899,18 @@ form textarea:required:valid {
      object-fit: contain;
 }
 
+.mxd-project-item {
+  background-color: var(--base);
+  border-radius: 1.6rem;
+  overflow: hidden;
+  padding-bottom: 2.2rem;
+}
+
+.mxd-project-item__media {
+  position: relative;
+  overflow: hidden;
+}
+
 /* ------------------------------------------------*/
 /* Block - Images Grid End */
 /* ------------------------------------------------*/
